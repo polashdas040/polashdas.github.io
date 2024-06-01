@@ -1,0 +1,129 @@
+/* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      div {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #fff;
+      }
+
+      /* Contact Section */
+      .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+
+      .contact h1,
+      .contact h2 {
+        color: #333;
+      }
+
+      .contact h2 i {
+        color: #777;
+      }
+
+      .contact p,
+      .contact a {
+        font-size: 16px;
+        color: #007bff;
+        text-decoration: none;
+        margin: 5px 0;
+      }
+
+      .contact a:hover {
+        text-decoration: underline;
+      }
+
+      /* Introduction Section */
+      .intro {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .intro img {
+        border-radius: 50%;
+        margin-right: 20px;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .intro div {
+        flex: 1;
+      }
+
+      /* Education, Skills, Achievements, Projects Sections */
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      ul li {
+        background: #007bff;
+        color: #fff;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .skills li {
+        background: #28a745;
+      }
+
+      .achievements li {
+        background: #17a2b8;
+      }
+
+      .projects h3 {
+        margin: 0;
+        font-size: 20px;
+      }
+
+      .projects p {
+        margin: 5px 0 10px;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 0;
+        border-top: 1px solid #333;
+      }
+
+      footer p {
+        margin: 0;
+        font-size: 14px;
+        color: #777;
+      }
+
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        .intro {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .intro img {
+          margin: 0 auto 20px;
+        }
+
+        .intro div {
+          margin: 0;
+        }
+
+        ul li {
+          margin-bottom: 15px;
+        }
+      }
